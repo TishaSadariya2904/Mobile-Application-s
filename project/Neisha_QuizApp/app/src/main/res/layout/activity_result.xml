@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/congratulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Congratulations"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:textSize="30sp"
+        android:textColor="@color/design_default_color_primary"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="userrname"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:textSize="22sp"
+        android:textColor="@color/design_default_color_primary"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Your Score is 7 out of 7"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary"/>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:text="Finish"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>
